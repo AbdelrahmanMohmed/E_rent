@@ -49,71 +49,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     SizedBox(
                       height: size.height * 0.02,
                     ),
-                    // for phone number field,
-                    phoneNumberField(size),
-                    const SizedBox(height: 10),
-                    RichText(
-                      text: const TextSpan(
-                        text:
-                            "We'll call or text you to conform your number. Standart message and data rates apply.  ",
-                        style: TextStyle(
-                          fontSize: 15,
-                          color: Colors.black,
-                        ),
-                        children: [
-                          TextSpan(
-                            text: "Privacy Policy",
-                            style: TextStyle(
-                              fontWeight: FontWeight.bold,
-                              decoration: TextDecoration.underline,
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
-                    SizedBox(height: size.height * 0.03),
-                    Container(
-                      width: size.width,
-                      padding: const EdgeInsets.symmetric(vertical: 12),
-                      decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(10),
-                        color: Colors.pink,
-                      ),
-                      child: const Center(
-                        child: Text(
-                          "Continue",
-                          style: TextStyle(
-                            fontSize: 20,
-                            fontWeight: FontWeight.bold,
-                            color: Colors.white,
-                          ),
-                        ),
-                      ),
-                    ),
-                    SizedBox(height: size.height * 0.026),
-                    Row(
-                      children: [
-                        Expanded(
-                          child: Container(
-                            height: 1,
-                            color: Colors.black26,
-                          ),
-                        ),
-                        const Padding(
-                          padding: EdgeInsets.symmetric(horizontal: 20),
-                          child: Text(
-                            "or",
-                            style: TextStyle(fontSize: 18),
-                          ),
-                        ),
-                        Expanded(
-                          child: Container(
-                            height: 1,
-                            color: Colors.black26,
-                          ),
-                        ),
-                      ],
-                    ),
+
                     SizedBox(height: size.height * 0.015),
                     socialIcons(
                       size,

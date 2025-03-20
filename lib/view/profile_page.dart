@@ -106,7 +106,7 @@ class ProfilePage extends StatelessWidget {
                         Image.network(
                           "https://static.vecteezy.com/system/resources/previews/034/950/530/non_2x/ai-generated-small-house-with-flowers-on-transparent-background-image-png.png",
                           height: 140,
-                          width: 135,
+                          width: 120,
                         ),
                       ],
                     ),
